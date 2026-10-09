@@ -1,0 +1,21 @@
+{
+  "name": "lead-qualifier",
+  "version": "1.0.0",
+  "description": "AI lead qualification bot - asks the 5 questions that decide if a visitor is a real buyer, scores them, and pings the owner only for hot leads.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node test/e2e.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "openai": "^4.67.0"
+  }
+}

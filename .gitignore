@@ -1,0 +1,7 @@
+node_modules
+.env
+data/*/site.json
+data/*/kb.json
+data/*/conversations.json
+data/*/leads.json
+*.log

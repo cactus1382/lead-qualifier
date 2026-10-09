@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  lead-qualifier:
+    build: .
+    ports:
+      - "3010:3010"
+    env_file: .env
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
